@@ -8,7 +8,7 @@ public class DieselTruck extends AFuelCar
                           int numberOfDoors,
                           int kmPrLitre,
                           boolean hasFilter) {
-        super(registrationNumber, make, model, numberOfDoors, kmPrLitre, hasFilter);
+        super(registrationNumber, make, model, numberOfDoors, kmPrLitre);
     }
 
     @Override

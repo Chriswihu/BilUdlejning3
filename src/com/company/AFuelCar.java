@@ -4,9 +4,10 @@ public abstract class AFuelCar extends ACar
 {
     private int kmPrLitre;
     protected AFuelCar(String registrationNumber,
-                       String make, String model,
+                       String make,
+                       String model,
                        int numberOfDoors,
-                       int kmPrLitre, boolean hasFilter)
+                       int kmPrLitre)
     {
         super(registrationNumber,
                 make,

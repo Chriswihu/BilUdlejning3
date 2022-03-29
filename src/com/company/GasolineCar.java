@@ -7,12 +7,13 @@ public class GasolineCar extends AFuelCar
                           String make,
                           String model,
                           int numberOfDoors,
-                          int kmPrLitre) {
+                          int kmPrLitre)
+    {
         super(registrationNumber,
                 make,
                 model,
                 numberOfDoors,
-                kmPrLitre, hasFilter);
+                kmPrLitre);
     }
 
     @Override

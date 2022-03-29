@@ -23,5 +23,11 @@ public class Main {
 
         System.out.println("\n\n\n");
         System.out.println(myFleet.getTotalRegistrationFeeForFleet());
+
+        MainFeature mainFeature = new MainFeature();
+        System.out.println(mainFeature);
+
+        NewFeature newFeature = new NewFeature();
+        System.out.println(newFeature);
     }
 }
