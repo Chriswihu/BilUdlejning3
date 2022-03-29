@@ -6,7 +6,7 @@ public abstract class AFuelCar extends ACar
     protected AFuelCar(String registrationNumber,
                        String make, String model,
                        int numberOfDoors,
-                       int kmPrLitre)
+                       int kmPrLitre, boolean hasFilter)
     {
         super(registrationNumber,
                 make,

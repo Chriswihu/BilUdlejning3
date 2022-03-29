@@ -12,7 +12,7 @@ public class GasolineCar extends AFuelCar
                 make,
                 model,
                 numberOfDoors,
-                kmPrLitre);
+                kmPrLitre, hasFilter);
     }
 
     @Override

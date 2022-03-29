@@ -14,7 +14,7 @@ public class DieselCar extends AFuelCar
                 make,
                 model,
                 numberOfDoors,
-                kmPrLitre);
+                kmPrLitre, hasFilter);
         this.hasFilter = hasFilter;
     }
 
